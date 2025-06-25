@@ -1,11 +1,35 @@
-This is a network design and configuration project done wih Cisco Packet Tracer
-In this project I: 
-Designed a network topology for ACCOUNTS and DELIVERY departments using Cisco Packet Tracer.
+Cisco Packet Tracer Network Design — ACCOUNTS & DELIVERY Departments
+ Project Overview
 
-Configured Router0 with two subnets (192.168.40.0/25 and 192.168.40.128/25), assigning proper IP addresses, subnet masks, and gateways to all interfaces.
+This project simulates a small office network connecting two departments — ACCOUNTS and DELIVERY — using Cisco Packet Tracer. The network is segmented into two subnets, each containing PCs, printers, and switches, all linked by a central router. The goal was to configure IP addresses, enable communication across departments, and verify that the PCs can ping each other successfully.
+ Key Features & Tasks Completed
 
-Deployed 2960-24TT switches in each department and connected them to multiple PCs and printers using appropriate cables.
+    Designed the network topology with:
 
-Configured PCs and printers with valid IPs and default gateways to enable communication across the network.
+        2 Cisco 2960-24TT switches
 
-Tested end-to-end connectivity with ping commands to verify that DELIVERY PCs could successfully reach ACCOUNTS PCs.
+        1 Cisco 2911 router
+
+        2 printers and 4 PCs across ACCOUNTS and DELIVERY
+
+    Configured IP addresses, subnet masks, and default gateways for all devices:
+
+        ACCOUNTS subnet: 192.168.40.0/25
+
+        DELIVERY subnet: 192.168.40.128/25
+
+    Connected all devices using appropriate cables (straight-through and crossover as needed).
+
+    Tested end-to-end connectivity using ping to verify that PCs in DELIVERY can reach PCs in ACCOUNTS and vice-versa.
+
+ Skills Demonstrated
+
+    Network design and basic architecture
+
+    IP addressing and subnetting
+
+    Device configuration on Cisco Packet Tracer
+
+    Connectivity testing and troubleshooting
+
+    Basic network documentation
